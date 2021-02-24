@@ -1,0 +1,327 @@
+body{
+	background-color: #293f50;
+	font-family: Helvetica;
+
+}
+
+.footer{
+  float: left;
+  font-weight: 400;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin: 0 auto;
+  width: 960px;
+  color:  #648880;
+  font-size: 30px;
+
+}
+
+textarea{
+	border: 4px solid #cbe2c1;
+  border-radius: 8px;
+
+}
+
+/*header design*/
+
+.header1{
+	display: inline-block; 
+    margin:10px;
+    padding: 2px 100px;
+
+}
+
+.logo{
+
+	font-size: 48px;
+	letter-spacing: .5px;
+	font-weight: 100;
+	text-transform: uppercase;
+	font-family:  Helvetica, Arial, sans-serif;
+	color: #fff;
+
+}
+
+
+/*Navbar Design*/
+
+.nav-ul{
+	list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #293f50;
+}
+
+.nav-li{
+	float: left;
+}
+
+.nav-li a{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.nav-li a:hover {
+  color: #648880;
+}
+
+/*
+Register.html*/
+
+/*Register part design
+*/
+
+.Register_para{
+	color: #959ea6;
+	font-size: 25px;
+	font-weight: 100;
+	font-family: helvetica;
+}
+.Register_h1{
+	background-color: #cbe2c1;
+	padding: 60px 60px 60px 60px;
+	color: #648880;
+	font-weight: 100;
+	font-size: 30px;
+	font-family: helvetica;
+
+	
+}
+
+
+/*Register div*/
+
+
+.text_register{
+    display: inline-block; 
+    margin:10px;
+    padding-right: 60px;
+}
+
+
+.register_div{
+	background-color: white;
+
+}
+
+
+.font_register{
+	color: #a9b2b9;
+	font-size: 18px;
+
+}
+
+
+.h1_font_register{
+	color:  #648880;
+	font-weight: 100;
+}
+
+
+
+/*register_padding*/
+
+.register_padding{
+  padding: 35px 100px;
+}
+
+/*register button
+*/
+.btn_register{
+	background-color: #959ea6;
+    color: white;
+    height: 30px;
+    width: 150px;
+    border-radius: 10%;
+}
+
+.btn_register:hover{
+	background-color: #293f50;
+    color: black;
+}
+
+
+
+/*Index.html*/
+
+
+
+/*unique Index h1*/
+
+.index_h1{
+	color:  #648880;
+	font-weight: 100;
+}
+
+/*Unique index header font*/
+
+.font_index_header{
+	font-size: 25px;
+	color: white;
+	font-weight: 100;
+
+}
+
+
+/*Unique index button*/
+
+.btn_index{
+	border-style: solid;
+  border-color: white;
+  font-size: 20px;
+  color: white;
+  padding: 15px 15px 15px 15px;
+  border-radius: 8px;
+  font-weight: 100;
+  list-style-type: none;
+  overflow: hidden;
+  text-decoration: none;
+}
+
+.btn_index:hover{
+	background-color: white;
+	color:  #293f50;
+}
+
+/*Main section index*/
+
+.part2{
+	background-color: white;
+	padding: 50px, 50px, 50px, 50px;
+}
+
+.oneline_index{
+    display: inline-block; 
+    margin: 20px;
+	color: #a9b2b9;
+}
+
+.img_text{
+	color: #648880;
+	font-weight: 100;
+}
+
+
+
+/*Venue.html*/
+
+
+/*Venue main h1*/
+
+
+/*Venue para*/
+.venue_para{
+	color: #959ea6;
+	font-size: 30px;
+	font-weight: 100;
+	font-family: helvetica;
+}
+
+
+/*Venue h1*/
+.venue_h1{
+	background-color: #cbe2c1;
+	padding: 40px 40px 0px 40px;
+	color: #648880;
+	font-weight: 100;
+	font-size: 40px;
+	font-family: helvetica;
+	
+}
+
+
+
+
+.font_venue{
+	color: #a9b2b9;
+	font-size: 18px;
+}
+
+
+.address_font{
+	color:  #648880;
+	font-weight: 100;
+}
+
+.Main_venue{
+	background-color: white;
+}
+
+.section1_venue{
+  display: inline-block; 
+  padding: 60px 60px 60px 60px;
+ 
+
+}
+
+
+
+
+
+
+
+
+
+
+/*Form */
+
+.inline-block-child{
+  display: inline-block;
+  }
+
+.form1{
+	background-color: white;
+	padding: 40px;
+}
+
+.form_h1{
+	background-color: #cbe2c1;
+	padding: 40px 0px 40px 0px;
+	color: #648880;
+	font-weight: 100;
+	font-size: 40px;
+	font-family: helvetica;
+	
+}
+
+.font_form{
+	color: #293f50;
+	font-size: 20px;
+	font-weight: 700;
+}
+
+.button_form {
+  background-color: white;
+  color: black;
+  border: 4px solid #cbe2c1;
+  border-radius: 8px; 
+}
+
+textarea{
+	border: 4px solid #cbe2c1;
+  border-radius: 8px;
+
+}
+
+.btn_form{
+	background-color: #cbe2c1;
+	border-radius: 8px;
+	height: 50px;
+	width: 100px;
+}
+
+.btn_form:hover{
+	background-color: rgb(138, 190, 116);
+
+}
+
+
+
+.class1{
+    display: inline-block; 
+    margin: 20px;
+	color: #a9b2b9;
+}

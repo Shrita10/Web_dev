@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+	<link rel="stylesheet" type="text/css" href="css1.css">
+
+</head>
+<body>
+
+	<header>
+    <div class="header1">
+      <h1 class="logo">
+        Styles <br> Conference
+      </h1>
+    </div>
+    <div class='header1'>
+      <ul class="nav-ul">
+
+        <li class="nav-li"><a href="index1.html">Home</a></li>
+        <li class="nav-li"><a href="venue1.html">Venue</a></li>
+        <li class="nav-li"><a href="register.html">Register</a></li>
+        <li class="nav-li"><a href="form.html">Personal Info</a></li>
+
+      </ul>
+    </div>
+  </header>
+
+	<center>
+
+
+	<form class="form1">
+		<h1 class="form_h1">Personal Information</h1> <br>
+		
+	<div class='child inline-block-child' style= "text-align:left">
+	  <label class = "font_form">Enter first name</label> 
+		<input class="button_form" type="text" required = "required"/>
+		<br><br>
+    <label class = "font_form">Enter email address</label>
+    <input class="button_form" type="email" required = "required"/>
+    <br><br>
+		<label class = "font_form">Enter your Age</label>
+		<input class="button_form" type="number" required = "required"/>
+		<br> <br> <br>
+		<label class = "font_form">Describe yourself</label>
+		<textarea rows="5" cols="20"></textarea>
+		<br> <br>
+		<label class = "font_form">Enter password</label>
+		<input class="button_form" type="password" required = "required"/>
+		<br><br><br>
+    <label class = "font_form">Select your favorite color:</label><br>
+    <input class="button_form" type="color" required = "required"/>
+    <br><br>
+    <label class = "font_form">Upload your resume</label><br>
+    <input type="file" required = "required"/>
+    <br>
+	</div>
+
+	<div class='child inline-block-child' style= "text-align:right">
+		<label class = "font_form">Enter last name</label>
+		<input class="button_form" type="text" required = "required"/>
+		<br> <br>
+		<center>
+    <label class = "font_form">Select gender:</label><br><br>
+		  <input  class="button_form" type="radio" id="male" name="gender" value="male">
+		  <label class = "font_form" for="male">Male</label><br><br>
+		  <input type="radio" id="female" name="gender" value="female">
+		  <label class = "font_form" for="female">Female</label><br><br>
+		  <input type="radio" id="other" name="gender" value="other">
+      <label class = "font_form" for="other">Other</label><br>
+    </center>
+    <label class = "font_form"> Enter your qualifications</label>
+    <select class="button_form">
+	  	<option>Science</option>
+	  	<option>Commerce</option>
+	  	<option>Arts</option>
+    </select>
+    <br><br>
+	  <label class = "font_form">What are the subjects that you would like to learn</label><br><br>
+	  <center>
+		  <input class="button_form" type="checkbox" id="subject1" name="subject1" value="Python">
+		  <label class = "font_form" for="subject1">Python</label><br><br>
+		  <input  class="button_form" type="checkbox" id="subject2" name="subject2" value="C++">
+		  <label class = "font_form" for="subject2">C++</label><br><br>
+		  <input class="button_form" type="checkbox" id="subject3" name="subject3" value="Java">
+		  <label class = "font_form" for="subject3">Java</label><br><br>
+		  
+	  <label class = "font_form">Enter your Birth date</label>
+	  <input class="button_form" type="date" required = "required"/>
+
+  </center>
+  </div> <br> <br>
+  <button class="btn_form"> Submit1</button>
+</form> 
+  <br>
+  
+</center>
+</form></center>
+
+
+<div class="footer">
+	
+<p> &copy; style conference</p>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>This is my first javascript with html</title>
+	<link rel="stylesheet" type="text/css" href="style1.css">
+</head>
+<body>
+    <center>
+	<h1> BMI Calculator</h1>
+    <label> Enter weight in Kilograms</label>
+    <input class = "input1" type="number" name="Textbox1" id="box1" > <br>
+    <label> Enter height in meters</label>
+    <input class = "input1" type="number" name="Textbox1" id="box2"> <br>
+ 
+    
+    <input class= "btn1" type="button" name="clickbtn" value = "Calculate BMI" onclick="convertBmiKgs()"> <br>
+ 
+
+    <label> Enter weight in pounds</label>
+    <input class = "input1" type="number" name="Textbox1" id="box3"> <br>
+    <label> Enter weight in centimeters</label>
+    <input class = "input1" type="number" name="Textbox1" id="box4"> <br>
+ 
+
+    <input class= "btn1" type="button" name="clickbtn1" value = "Calculate BMI" onclick="convertBmiPounds()"> <br>
+    
+
+	<p id="res"></p>
+
+	<p id="res1"></p>
+
+
+
+	<script type="text/javascript">
+		function convertBmiKgs(){
+			var weight = parseFloat(document.getElementById("box1").value);
+			var height = parseFloat(document.getElementById("box2").value);
+			var heightSquare = Math.pow(height,2);
+			var result = Math.floor(weight / heightSquare);
+
+			if (result < 18.5 ) {
+
+		      	document.getElementById("res1").innerHTML = "You are Underweight";
+
+		      }
+
+		      else if (result >  18.5  &&  result <  24.9 ) {
+
+		      	document.getElementById("res1").innerHTML = "You have a normal weight";
+
+		      }
+
+		      else if (result >  25  &&  result <  29.9 ) {
+
+		      	document.getElementById("res1").innerHTML = "You are Overweight";
+
+		      }
+
+		      else if (result >  30) {
+
+		      	document.getElementById("res1").innerHTML = "You are obese";
+
+		      }
+
+			document.getElementById("res").innerHTML = "Your BMI is" + " " + result;
+		}
+
+		function convertBmiPounds(){
+			var weight = parseFloat(document.getElementById("box3").value);
+			var height = parseFloat(document.getElementById("box4").value);
+
+			weight = weight / 2.20462;
+			height = height / 100;
+
+			var heightSquare = Math.pow(height,2);
+			var result = Math.floor(weight / heightSquare);
+
+			if (result < 18.5 ) {
+
+		      	document.getElementById("res1").innerHTML = "You are Underweight";
+
+		      }
+
+		      else if (result >  18.5  &&  result <  24.9 ) {
+
+		      	document.getElementById("res1").innerHTML = "You have a normal weight";
+
+		      }
+
+		      else if (result >  25  &&  result <  29.9 ) {
+
+		      	document.getElementById("res1").innerHTML = "You are Overweight";
+
+		      }
+
+		      else if (result >  30) {
+
+		      	document.getElementById("res1").innerHTML = "You are obese";
+
+		      }
+
+			document.getElementById("res").innerHTML = "Your BMI is" + " " + result;
+		}
+
+
+	
+
+
+	</script>
+</center>
+</body>
+</html>

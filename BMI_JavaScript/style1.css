@@ -1,0 +1,40 @@
+body{
+	background-color: #99bbad;
+}
+
+h1{
+	color:  #314e52;
+}
+.input1{
+	  background-color:  #99bbad;
+	  border: 2px solid #5b5b5b;
+	  height: 40px;
+	  width : 600px;
+	  color: #314e52;
+	  font-size: 30px;
+	  border-radius: 10px;
+	  margin : 5px;
+}
+
+.btn1{
+	background-color: #5b5b5b;
+	color : #99bbad;
+	height: 40px;
+	width : 500px;
+	font-size: 30px;
+	border-radius: 10px;
+	margin : 5px;
+
+}
+
+
+p{
+	font-size: 25px;
+	color: #314e52;
+
+}
+
+label{
+	color: #314e52;
+	font-size: 30px;
+}

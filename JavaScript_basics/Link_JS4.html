@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+
+    <input type="text" id="Text1" name="TextBox1">
+	<input type="button" name="clickbtn" value="Convert to Uppercase" onclick="convertStrToUpper()">
+
+	<p id = "Demo1" ></p>
+
+    <script type="text/javascript">
+
+    	function convertStrToUpper() {
+
+            var str1 = document.getElementById("Text1").value;
+
+            var getFirstLetter = str1.slice(0,1);
+
+            var otherLetters = str1.slice(1,str1.length);
+
+            getFirstLetter = getFirstLetter.toUpperCase();
+
+            otherLetters = otherLetters.toLowerCase();
+
+            var finalWord = getFirstLetter + otherLetters;
+     
+            //var result = str1.toUpperCase();
+
+            document.getElementById("Demo1").innerHTML = "The value that you entered is " +  finalWord;
+        }
+	</script>
+
+</body>
+</html>

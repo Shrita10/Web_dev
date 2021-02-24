@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	Enter First Number : <br>
+    <input type="text" id="Text1" name="TextBox1">
+    <br>
+    Enter Second Number : <br>
+    <input type="text" id="Text2" name="TextBox2">
+    <br>
+    Result : <br>
+    <p id="txtresult" name="TextBox3"> <p>
+    <br>
+    <input type="button" name="clickbtn" value="Add" onclick="add_number()">
+    <input type="button" name="clickbtn" value="Subtract" onclick="subtract_number()">
+    <input type="button" name="clickbtn" value="Mutiply" onclick="multiply_number()">
+    <input type="button" name="clickbtn" value="Divide" onclick="divide_number()">
+
+
+	<script type="text/javascript">
+        function add_number() {
+
+            var first_number = parseInt(document.getElementById("Text1").value);
+            var second_number = parseInt(document.getElementById("Text2").value);
+            var result = first_number + second_number;
+
+            document.getElementById("txtresult").innerHTML = result;
+        }
+
+        function subtract_number() {
+
+            var first_number = parseInt(document.getElementById("Text1").value);
+            var second_number = parseInt(document.getElementById("Text2").value);
+            var result = first_number - second_number;
+
+            document.getElementById("txtresult").innerHTML = result;
+        }
+
+        function multiply_number() {
+
+            var first_number = parseInt(document.getElementById("Text1").value);
+            var second_number = parseInt(document.getElementById("Text2").value);
+            var result = first_number * second_number;
+
+            document.getElementById("txtresult").innerHTML = result;
+        }
+
+        function divide_number() {
+
+            var first_number = parseInt(document.getElementById("Text1").value);
+            var second_number = parseInt(document.getElementById("Text2").value);
+            var result = first_number / second_number;
+
+            document.getElementById("txtresult").innerHTML = result;
+        }
+    </script>
+
+
+</body>
+</html>
